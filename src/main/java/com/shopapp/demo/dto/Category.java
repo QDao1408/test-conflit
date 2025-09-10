@@ -14,6 +14,8 @@ public class Category {
 
     private String description;
 
+    private String category;
+
     public Category(String name) {
         this.name = name;
     }
@@ -45,4 +47,13 @@ public class Category {
         this.description = description;
     }
     //fhsaldkfhsadlkfhdsa;lfjdks
+
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
 }
