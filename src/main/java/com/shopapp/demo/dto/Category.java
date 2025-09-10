@@ -12,6 +12,8 @@ public class Category {
 
     // hiiii
 
+    private String description;
+
     public Category(String name) {
         this.name = name;
     }
@@ -35,4 +37,11 @@ public class Category {
         this.number = number;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
