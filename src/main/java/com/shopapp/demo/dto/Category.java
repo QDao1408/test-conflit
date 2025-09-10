@@ -46,6 +46,10 @@ public class Category {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public void setDescription1(String description) {
+        this.description = description;
+    }
     //fhsaldkfhsadlkfhdsa;lfjdks
 
 
